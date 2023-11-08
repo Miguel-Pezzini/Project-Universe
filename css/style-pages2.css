@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url(../assets/mountains-universe-3.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    background-size: 100% 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 648px;
+    line-height: 160%;
+}
+.container h1{ 
+    color: #fff;
+    font-size: 38px;
+}
+.container p {
+    color: #E1E1E6;
+    font-size: 18px;
+}
